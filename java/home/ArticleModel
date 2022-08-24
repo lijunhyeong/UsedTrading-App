@@ -1,0 +1,12 @@
+package com.atob.ch10.home
+
+data class ArticleModel(
+    val sellerId: String,
+    val title: String,
+    val createdAt: Long,
+    val price: String,
+    val imageUrl: String
+){
+    // 초기값으로 빈 생성자를 만들어준다.
+    constructor(): this("","",0,"","")
+}
