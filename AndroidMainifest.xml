@@ -1,0 +1,12 @@
+<!-- add -->
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+<application
+             .
+             .
+        <activity android:name=".home.AddArticleActivity" />
+        <activity android:name=".chatdetail.ChatRoomActivity"/>
+             .
+</application>
